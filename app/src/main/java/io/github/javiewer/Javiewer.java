@@ -103,7 +103,7 @@ public class JAViewer extends Application {
         String host;
         try {
             host = new URI(DataSource.AVMO.getLink()).getHost();
-            hostReplacements.put("avmo.pw", host);
+            hostReplacements.put("avmo.club", host);
             hostReplacements.put("avio.pw", host);
 
             host = new URI(DataSource.AVSO.getLink()).getHost();
