@@ -109,6 +109,7 @@ public class JAViewer extends Application {
 
             host = new URI(DataSource.AVSO.getLink()).getHost();
             hostReplacements.put("avso.pw", host);
+            hostReplacements.put("avso.club", host);
 
             host = new URI(DataSource.AVXO.getLink()).getHost();
             hostReplacements.put("avxo.pw", host);
